@@ -1,0 +1,56 @@
+h1 {
+    color: darkcyan;
+}
+
+.rojon {
+    color: red;
+    font-weight: bold;
+}
+
+.destacado, .especial {
+    color: orange;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+.linkRojo {
+    color: red;
+}
+
+.linkAzul {
+    color: blue;
+}
+
+.especialito {
+    color: darkmagenta;
+}
+
+td {
+    color: darkgreen;
+}
+
+.purus {
+    color: orange;
+    font-weight: bold;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    padding: 4px;
+}
+
+#adicional {
+    color: darkolivegreen;
+}
+
+#especial {
+    color: darkorchid;
+}
+
+.pentium {
+    color: darkgreen;
+}
+
