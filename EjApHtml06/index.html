@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjApHtml06</title>
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1>
+    <section>
+        <div>
+            <form action="/controlador-registro" method="POST" class="form-registro" id="form-registro"
+                enctype="multipart/form-data">
+                <div>
+                    <label for="nombre">Nombre del usuario</label><br>
+                    <input name="nombre" type="text" required>
+                </div>
+                <div>
+                    <label for="contrasenia">Contraseña del usuario</label><br>
+                    <input name="contrasenia" type="password" required>
+                </div>
+                <div>
+                    <label for="edad">Edad del usuario</label><br>
+                    <input name="edad" type="text" required>
+                </div>
+                <div>
+                    <label for="fecha">Fecha de nacimiento del usuario</label><br>
+                    <input type="date" name="fecha" />
+                </div>
+                <div>
+                    <label>Sexo del usuario</label><br>
+                    <input name="hombre" type="radio" value="h">
+                    <label for="hombre">Hombre</label><br>
+                    <input name="mujer" type="radio" value="m">
+                    <label for="mujer">Mujer</label><br>
+                    <input name="nada" type="radio" value="n">
+                    <label for="nada">Prefiero no decir</label><br>
+                </div>
+                <div>
+                    <label for="pais">Pais nacimiento del usuario</label><br>
+                    <select name="pais" id="">
+                        <option value="arg">Argentina</option>
+                        <option value="chi">Chile</option>
+                        <option value="bra">Brazil</option>
+                    </select>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
